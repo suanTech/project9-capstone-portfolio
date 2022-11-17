@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inconsolata:wght@500;700&family=Mukta:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Suan Choi Frontend Developer</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <svg class="heart" xmlns="http://www.w3.org/2000/svg" viewBox="-60 -40 280 310">
+                <path d="M173.68,21.89A47,47,0,0,0,124.35,1C105.13,4.86,95.48,23.18,91.17,31.6,86.85,23.18,77.2,4.86,58,1A46.93,46.93,0,0,0,8.66,21.89C-2.28,39.2-.23,65.5,1,72.67c9.75,55.62,77,78,90.15,86.81,13.15-8.82,80.4-31.19,90.15-86.81C182.57,65.5,184.62,39.2,173.68,21.89Z"/>
+                <defs>
+                    <clipPath id="heartShape">
+                        <path d="M173.68,21.89A47,47,0,0,0,124.35,1C105.13,4.86,95.48,23.18,91.17,31.6,86.85,23.18,77.2,4.86,58,1A46.93,46.93,0,0,0,8.66,21.89C-2.28,39.2-.23,65.5,1,72.67c9.75,55.62,77,78,90.15,86.81,13.15-8.82,80.4-31.19,90.15-86.81C182.57,65.5,184.62,39.2,173.68,21.89Z"/>
+                    </clipPath>
+                </defs>
+                <g clip-path="url(#heartShape)">
+                    <g class="fill hidden">
+                        <rect width="300" height="300" y="350" style="fill:var(--clr-accent); stroke: none;" />                        
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <nav class="main-nav">
+            <div class="menu-icon">
+                <span class="nav-bg"></span>
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <ul class="menu-content center">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#project">Project</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="heading center">
+            <h1>Hi! I'm <span class="name">Suan</span>, a front-end web developer</h1>
+        </section>
+        <section id="about">
+            <div class="sticky center"> 
+                <h2>Who Am I</h2>
+            </div>
+            <div class="card center" id="about-me">
+                <ul>
+                    <li>I Am A <span class="highlight">Deep Thinker</span></li>
+                    <li>I Am A <span class="highlight">Trouble Maker</span> && A <span class="highlight">Problem Solver</span></li>
+                    <li>I Like <span class="highlight">Fixing</span> Things</li>
+                    <li>People Often Say I Am <span class="highlight">Resourceful</span></li>
+                    <li>My Superpower Is <span class="highlight">Reading People's Mind</span></li>
+                    <li>I Like To <span class="highlight">Challenge</span> What I Think I Know/UnderStand</li>
+                    <li>I Crave For <span class="highlight">Fresh Ideas</span></li>
+                    <li>I Love <span class="highlight">Helping</span> People With Skills I Have</li>
+                    <li>I Like <span class="highlight">Documenting</span> What I See/Feel/Hear/Learn</li>
+                    <li>I Like <span class="highlight">Questioning</span> Things We All "Just Know"</li>
+                </ul>
+            </div>
+        </section>
+        <section id="project">
+            <div class="sticky center"> 
+                <h2>My Project</h2>
+            </div>
+            <div class="card center">
+                <div class="gallery">
+                    <div class="item">
+                        <h3>WebApp Dashboard</h3>
+                        <img src="img/dashboard.png" alt="webapp dashboard">
+                        <div class="description">
+                            <h4><strong>HTML, CSS, javaScript</strong></h4>
+                            <br>
+                            <p>Dynamic chart using Chart.js
+                            <br>Local storage to save/reset settings
+                            <br>Detailed functions on notification</p>
+                        </div>
+                        <div class="buttons">
+                            <a class="button" href="https://suantech.github.io/project7-web-app-dashboard/" target="/">DEMO</a>
+                            <a class="button" href="https://github.com/suanTech/project7-web-app-dashboard/" target="_blank">CODE</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Employee Directory</h3>
+                        <img src="img/employee-dir.png" alt="employee directory">
+                        <div class="description">
+                            <h4><strong>HTML, CSS, javaScript</strong></h4>
+                            <br>
+                            <p>Fetch API to handle the data</p>
+                            <p> sort-by-name / search function </p>
+                            <p>Modal window for detailed info</p>
+                        </div>
+                        <div class="buttons">
+                            <a class="button" href="https://suantech.github.io/project8-employee-directory/" target="_blank">DEMO</a>
+                            <a class="button" href="https://github.com/suanTech/project8-employee-directory/" target="_blank">CODE</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Weather App</h3>
+                        <img src="img/weather-app2.png" alt="weather app">
+                        <div class="description">
+                            <h4><strong>HTML, CSS, javaScript</strong></h4>
+                            <br>
+                            <p>Fetch API from openweathermap.org
+                            <br>
+                            Loads data using user's current location
+                            <br>
+                            search for cities
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <a class="button" href="https://suantech.github.io/weather-app/" target="_blank">DEMO</a>
+                            <a class="button" href="https://github.com/suanTech/weather-app/" target="_blank">CODE</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Word Guessing Game</h3>
+                        <img src="img/game-show.png" alt="game show">
+                        <div class="description">   
+                            <h4><strong>HTML, CSS, javaScript</strong></h4>
+                            <br>
+                            <p>Browser version of 'Wheel of Success'
+                            <br>
+                            Working with DOM, javaScript array
+                            to create functions.
+                            </p>
+                        </div> 
+                        <div class="buttons">
+                            <a class="button" href="https://suantech.github.io/project6-game-show-app/" target="/">DEMO</a>
+                            <a class="button" href="https://github.com/suanTech/project6-game-show-app/">CODE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="sticky center"> 
+                <h2>Contact Me</h2>
+            </div>
+            <div class="center">
+                <div class="contact">
+                    <h2>Want to know more about me?</h2>
+                    <br>
+                    <h2>Get in touch</h2>
+                    <a href="mailto:sayhitosuan@gmail.com">sayhitosuan@gmail.com</a>
+                    <br>
+                    <a href="https://github.com/suanTech" target="_blank">
+                        <img class="link" src="img/GitHub-Mark-32px.png" alt="github">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="center">
+        <p class="copyright">Copyright 2022, Suan Choi</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
