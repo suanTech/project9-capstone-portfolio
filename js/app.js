@@ -59,7 +59,7 @@ function fillHeart () {
 }
 function moveHeading () {
     const offsetY = window.pageYOffset;
-    heading.setAttribute('style', `transform:translateX(-${(offsetY - 40) / 1.8}vw)`)
+    heading.setAttribute('style', `transform:translateX(-${(offsetY - 40) / 1.5}vw)`)
 }
 
 // main heading color change & project reveal on scroll 
