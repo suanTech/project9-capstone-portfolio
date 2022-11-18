@@ -70,6 +70,12 @@ a {
 .center {
     text-align: center;
 }
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
 
 /* ======== nav ======== */
 .main-nav {
@@ -213,13 +219,17 @@ a {
 }
 #about-me {
     margin: auto;
+    text-align: left;
+}
+#about-me h4 {
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
 }
 #about-me li {
     font-size: 1rem;
-    line-height: 1.7em;
-    list-style:decimal-leading-zero;
-    margin-left: 35px;
-    text-align: left;
+    line-height: 2rem;
+    list-style:none;
 }
 #about-me li:hover .highlight {
     color: var(--clr-accent);
