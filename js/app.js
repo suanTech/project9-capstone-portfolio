@@ -40,7 +40,7 @@ function fadeInOut(e) {
         fixBanner();
         fillHeart();
     } 
-    if (window.pageYOffset < 280 || document.documentElement.scrollHeight - window.pageYOffset <= (window.innerHeight + 50) ) {
+    if (window.pageYOffset < 280 || document.documentElement.scrollHeight - window.pageYOffset <= (window.innerHeight + 80) ) {
         unfixBanner();
     } 
 }
